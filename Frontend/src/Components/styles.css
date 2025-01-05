@@ -1,0 +1,366 @@
+.nav-bar
+{
+    background-color:black;
+    color:#ffffff;
+    height:100px;
+}
+.nav-bar .nav-link
+{ 
+    color:white;
+    font-size: 18px;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.nav-bar .nav-link:hover
+{
+    color:lightgray;
+}
+.nav-bar .nav-link.active {
+    color: black; /* Active text color */
+    background-color: white; /* Change this to your desired active background color */
+    border-radius: 5px; /* Optional: add rounding for a nicer look */
+}
+.forms
+{
+    width: 1350px;
+    height: 600px;
+    padding: 10px;
+    background-image: url('https://www.psdgraphics.com/file/2019/blurry-nature-background.jpg');
+    margin-top: -5px;
+}
+.addcityform
+{
+    width: 600px;
+    margin-top: 80px;
+    margin-left: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;
+}
+.addcityform:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.buttons
+{
+   text-align: center;
+}
+.displaycity
+{
+    margin-left: 750px;
+    width: 500px;
+    height:220px;
+    margin-top: -280px;
+    border-radius: 20px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+}
+.displaycity:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.manufcomp
+{
+    border-radius: 20px;
+    padding:10px;
+    margin-left: 300px;
+    width:800px;
+    height: 400px;
+    margin-top: 100px;
+    transition: box-shadow 0.3s ease;
+}
+.manufcomp:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.displaymanufcomp
+{
+    width:800px;
+    margin-left: 300px;
+    border-radius: 20px;
+    height:400px;
+    padding: 10px;
+    transition: box-shadow 0.3s ease;
+}
+.displaymanufcomp:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.adddistributor
+{
+    border-radius: 20px;
+    width: 900px;
+    margin-left: 200px;
+    height: 900px;
+    margin-top: 100px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+}
+.adddistributor:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.button1
+{
+    margin-top: -10px;
+    margin-left: 500px;
+}
+.addsupplier
+{
+    width:900px;
+    padding: 20px;
+    height: 1000px;
+    margin-left: 200px;
+    border-radius: 20px;
+    margin-top: 100px;
+    transition: box-shadow 0.3s ease;
+}
+.addsupplier:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.displaydistributor
+{
+    width: 1300px;
+    height: 500px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 20px;
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;
+}
+.displaydistributor:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.displaysuppliers
+{
+    width: 1300px;
+    height: 400px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 20px;
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;
+}
+.displaysuppliers:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.regshop
+{
+    background-image: url('https://files.123freevectors.com/wp-content/original/156172-light-brown-background-vector-image.jpg');
+    width: 1350px;
+    padding: 20px;
+    height:1040px;
+    margin-top: -5px;
+}
+.button2
+{
+    margin-left: 500px;
+}
+.displayshop
+{
+    border-radius: 20px;
+    height: 400px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 100px;
+    transition: box-shadow 0.3s ease;
+}
+.displayshop:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.updateshoppro
+{
+    width: 900px;
+    height: 800px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 100px;
+    transition: box-shadow 0.3s ease;
+}
+.updateshoppro:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.updateshoppswd
+{
+    width: 600px;
+    height: 250px;
+    padding: 20px;
+    margin-left: 400px;
+    margin-top: 100px;
+    transition: box-shadow 0.3s ease;
+}
+.updateshoppswd:hover
+{   
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.bookmedicine
+{
+    width: 900px;
+    height: 500px;  
+    padding: 20px;
+    margin-Left: 200px;
+    margin-top: 100px;
+    transition: box-shadow 0.3s ease;
+}
+.bookmedicine:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.updatesupprofile
+{
+    transition: box-shadow 0.3s ease;
+    width: 900px;
+    padding: 20px;
+    margin-left:200px;
+    margin-top: 100px;
+}
+.updatesupprofile:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.updatesupppswd
+{
+    padding: 20px;
+    margin-left: 200px;
+    height:250px;
+    margin-top: 100px;
+    width: 800px;
+    transition: box-shadow 0.3s ease;
+}
+.updatesupppswd:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.updatedisprofile
+{
+    padding: 20px;
+    margin-left: 150px;
+    margin-top: 100px;
+    width: 900px;
+    transition: box-shadow 0.3s ease;
+}
+.updatedisprofile:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.updatedispswd
+{
+    height: 250px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 800px;
+    transition: box-shadow 0.3s ease;
+}
+.updatedispswd:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.addmedicine
+{
+    height: 550px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 900px;
+    transition: box-shadow 0.3s ease;
+}
+.addmedicine:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.forwardbtn
+{
+    margin-left:100px;
+}
+.booksupordermedicine
+{
+    height: 450px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 900px;
+    transition: box-shadow 0.3s ease;
+}
+.booksupordermedicine:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.shoporderdetails
+{
+    padding: 20px;
+    margin: 20px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 100px;
+    background-color: rgb(241, 195, 134);
+}
+.supplyorderdetails
+{
+    padding: 20px;
+    margin-left: 150px;
+    height: 500px;
+    margin-top: 100px;
+    width: 1000px;
+    transition: box-shadow 0.3s ease;
+}
+.supplyorderdetails:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.displayshopstatus
+{
+    width:1100px;
+    padding: 20px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 150px;
+    transition: box-shadow 0.3s ease;
+}
+.displayshopstatus:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.displaysupplystatus
+{
+    padding: 20px;
+    margin-left: 100px;
+    height: 400px;
+    margin-top: 100px;
+    width: 1100px;
+    transition: box-shadow 0.3s ease;
+}
+.displaysupplystatus:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.carosel
+{
+    height: 1000px;
+    width:100%;
+    margin-top: -5px;
+    background-color: antiquewhite;
+}
+.backgrd
+{
+    height: 800px;
+    background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148910071.jpg' );
+    margin-top: -5px;
+}
+.contact
+{
+    margin-left: 300px;
+    margin-top: -300px;
+}
+.info
+{
+    margin-left: 50px;
+    margin-top: -1400px;
+}
